@@ -40,23 +40,28 @@ Note:- For saferside we can copy 4 files on GITHUB and use HTTP connector for Gi
 ![image](https://github.com/user-attachments/assets/37ed783f-dc48-464c-a325-69ef38a42661)
 
  
-**Model 3:-** 	**Data Transformatio using Dataflows**
+**Model 3:-** 	**Data Transformation using Dataflows , Azure HDInsights and Azure Databricks**
  
 In this model we are transforming data with using various tool and transformed data will load into processed folder in ADLS gen 2 account.
 
-A)	Azure Data Flows:- We are creating data flows for transforming data and cleanined data will load into Processed container in ADLS gen 2 account using Dataflow activity in Azure Data Factory.
+A)	**Azure Data Flows:-** We are creating data flows for transforming data and cleanined data will load into Processed container in ADLS gen 2 account using Dataflow activity in Azure Data Factory.
 
 Example:-
+
 ![image](https://github.com/user-attachments/assets/cc4660a1-fc93-4915-a6ba-98945e11893b)
 
-
-B)	Azure HDInsight:- we are transfoming testing file using this Azure service 
+B)	**Azure HDInsight:-** we are transfoming testing file using this Azure service 
 	for this service we need to create Managed Identity and provide access to this managed identity into ADLS gen2 cotainer using IAM
 
-C)	Azure Databricks:- Transforming Population File	
+C)	**Azure Databricks:-** Transforming Population File	
 		By using sevice principle we can mount the ADLS Gen 2 container into ADB using Pysprk.
 		we can create pyspark notebook for transorming the data and will load into processed container.
 
+Create Pipeline into ADF and call above 3 activity for transforming the data.
+
+ **Data Load into Azure SQL server Database**
+
+![image](https://github.com/user-attachments/assets/fce45dbe-f4e0-4b2d-9b3d-eda4010f9bdd)
 
 
 
