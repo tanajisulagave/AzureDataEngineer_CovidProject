@@ -10,7 +10,6 @@
 ![image](https://github.com/user-attachments/assets/adaac4cc-489a-42d8-ab59-231d809945e6)
 
 
-
 **Model 1:-** Ingesting Data from Blob storage
 	In this model we are ingesting data from  storage account(Blob storage) and load into ADLS gen 2 account
  
@@ -60,10 +59,21 @@ C)	**Azure Databricks:-** Transforming Population File
 Create Pipeline into ADF and call above 3 activity for transforming the data.
 
  
- **Data Load into Azure SQL server Database**
+ **Model 4 :- Data Load into Azure SQL server Database**
 
 ![image](https://github.com/user-attachments/assets/fce45dbe-f4e0-4b2d-9b3d-eda4010f9bdd)
 
-we have transformed data into ADLS gen 2 account now we need toadd this data into database 
+Now we have transformed data into ADLS gen 2 account now we need to add this data into Azure SQL database.
+
+
+**Continuous Integration and Continuous Delevery (CI/CD)**
+
+Using Azure devops transfered all the changes from Dev envionment to Test & Test to Prod.
+
+*A. Feature Branches*
+These branches are created for specific features or bug fixes, branching off from the collaboration branch. Feature branches allow developers to work on isolated changes without impacting the main codebase. Once the feature is complete, a pull request is created to merge the changes back into the collaboration branch.
+
+*B. Collaboration Branch:*
+This is the main branch where all finalized changes are merged. It is often referred to as "main" or "master". All feature branches are eventually merged into this branch after code reviews and testing.
 
  
