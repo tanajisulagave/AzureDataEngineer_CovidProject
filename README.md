@@ -1,4 +1,5 @@
-**Note:-** Refer "Azure Data Factory_CovidProject.docx" file to end to end solution of this project 
+**Note:-** Refer "*Azure Data Factory_CovidProject.docx*" file to end to end solution of this project 
+
 
 ****Azure Data Engineer Project - Covid 19 by Ramesh Ratnasamy****
 
