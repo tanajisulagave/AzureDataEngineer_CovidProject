@@ -59,10 +59,11 @@ C)	**Azure Databricks:-** Transforming Population File
 
 Create Pipeline into ADF and call above 3 activity for transforming the data.
 
+ 
  **Data Load into Azure SQL server Database**
 
 ![image](https://github.com/user-attachments/assets/fce45dbe-f4e0-4b2d-9b3d-eda4010f9bdd)
 
-
+we have transformed data into ADLS gen 2 account now we need toadd this data into database 
 
  
